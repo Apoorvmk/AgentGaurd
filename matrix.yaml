@@ -1,0 +1,19 @@
+hermes_agent:
+  read_db:
+    tables: [customers, invoices]
+    tier: allow
+
+  read_file:
+    paths: [company/data]
+    tier: allow
+
+  send_email:
+    domains: [acme.com]
+    tier: alert
+
+  send_payment:
+    max_amount: 50
+    tier: ask_user
+
+  browse:
+    tier: block

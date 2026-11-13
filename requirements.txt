@@ -1,0 +1,16 @@
+langgraph
+langchain
+langchain-ollama
+fastapi
+uvicorn
+httpx
+pyyaml
+aiosqlite
+pydantic
+psutil
+pandas
+numpy
+pytest
+pytest-asyncio
+mysql-connector-python
+python-dotenv
